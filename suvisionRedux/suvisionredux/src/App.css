@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#carousel{
+  margin-top: 50px;
+}
+#recentItems{
+  margin-top: 50px;
+}
+.btn{
+  background-color: transparent !important;
+  color: rgb(56, 104, 148) !important;
+  border: none !important;
+
+}
+.card{
+  height: 500px;
+}
+#cardImg{
+  height: 250px;
+  width: 250px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+#buynow{
+  padding: 5px !important;
+  border-radius: 5px !important;
+  background-color: rgb(226, 184, 106) !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  color: #fff !important;
+}
+#price{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
